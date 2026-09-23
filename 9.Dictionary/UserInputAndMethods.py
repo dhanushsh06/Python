@@ -1,7 +1,7 @@
 student = {}
-student["Name"] = "XYZ"
-student["Age"] = 21
-student["Course"] = "CS"
+student["Name"] = input("Enter Name of the student:")
+student["Age"] = int(input("Enter age of Student:"))
+student["Course"] = input("Enter Course:")
 
 print(f"After user input:{student}")
 
